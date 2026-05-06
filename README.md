@@ -1,3 +1,7 @@
+<center>
+
 # ginja
-### Desctiption: To Confirm Graphql Api Misconfiguration Bug In Web Application
-### ToolName:  Graphql + Ninja = Ginja
+<p> To Confirm Graphql Api Misconfiguration Bug In Web Application </p>
+<p> Graphql + Ninja = Ginja </p>
+
+</center>
