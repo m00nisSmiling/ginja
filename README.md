@@ -1,4 +1,4 @@
-# Ginja: GraphQL Introspection & Data Dumper
+# 👾 Ginja: GraphQL Introspection & Data Dumper 👾
 
 Ginja is a Python-based security tool designed to interact with GraphQL endpoints. It performs introspection to map out the database schema and allows for automated data extraction into JSON or CSV formats.
 
@@ -24,9 +24,7 @@ python ginja.py example.com /v1/graphql
 ```
 <hr>
 
-## Commands inside the tool
-
-#### Once the tool is running, use the following queries:
+## 💻 Once the tool is running, use the following queries:
 
 - rdb: Extract and list the table schema.  
 - rcol: Extract columns from a specific table and dump data.  
@@ -35,11 +33,11 @@ python ginja.py example.com /v1/graphql
 - clear: Remove local caches/folders for the current session.  
 - exit: Close the tool.
 
-## Output Structure
+## 📂 Output Structure
 - Ginja creates a directory named after the target domain. Inside, it organizes data by table name, saving results as table_name.json or table_name.csv
 - Disclaimer: This tool is for educational and authorized security testing only.
 
-## Technical Details Summary
+## ⚙️ Technical Details Summary
 - Connectivity: The script checks for http first and falls back to https if needed.  
 - Data Handling: Automatically ignores metadata columns like created_at and updated_at to keep dumps clean.  
 - Headers: Includes A feature to add custom headers (like Authorization tokens) during setup.  
