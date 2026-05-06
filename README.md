@@ -34,3 +34,13 @@ python ginja.py example.com /v1/graphql
 - csv: Toggle CSV export mode ON/OFF.  
 - clear: Remove local caches/folders for the current session.  
 - exit: Close the tool.
+
+## Output Structure
+- Ginja creates a directory named after the target domain. Inside, it organizes data by table name, saving results as table_name.json or table_name.csv
+- Disclaimer: This tool is for educational and authorized security testing only.
+
+## Technical Details Summary
+- Connectivity: The script checks for http first and falls back to https if needed.  
+- Data Handling: Automatically ignores metadata columns like created_at and updated_at to keep dumps clean.  
+- Headers: Includes A feature to add custom headers (like Authorization tokens) during setup.  
+- Format Protection: When exporting to CSV, it wraps long numbers in ="value" to prevent Excel from ruining the formatting[cite: 1].
