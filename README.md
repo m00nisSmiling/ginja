@@ -6,6 +6,6 @@ Ginja is a Python-based security tool designed to interact with GraphQL endpoint
 
 1. **Clone the repository:**
 ```
-bash git clone [https://github.com/YOUR_USERNAME/ginja.git](https://github.com/YOUR_USERNAME/ginja.git)
+git clone https://github.com/m00nisSmiling/ginja.git
 cd ginja
 ```
