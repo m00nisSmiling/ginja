@@ -19,7 +19,7 @@ def logo(d):
 	print(colored("                                                  =/=         =\\=","green"))
 	print(colored("                                               =/=               =\\=\n\n","yellow"))
 	print(colored(f"                                      Target -> [","white"),colored(d,"red"),colored("]","white"))
-
+	print(colored("                                       Author -> [", "white") + colored("@m00nisSmiling", "green") + colored("]", "cyan"))
 
 os.system("clear")
 
