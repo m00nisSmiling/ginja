@@ -17,8 +17,8 @@ pip install -r requirements.txt
 ```
 python ginja.py
 ```
-3. **Direct Arguments**
-You can skip the initial prompts by passing the domain and route as arguments:
+4. **Direct Arguments**
+#### You can skip the initial prompts by passing the domain and route as arguments:
 ```
 python ginja.py example.com /v1/graphql
 ```
