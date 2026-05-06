@@ -23,6 +23,7 @@ You can skip the initial prompts by passing the domain and route as arguments:
 python ginja.py example.com /v1/graphql
 ```
 <br>
+
 ## Commands inside the tool
 
 **Once the tool is running, use the following queries:**
