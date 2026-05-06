@@ -9,3 +9,11 @@ Ginja is a Python-based security tool designed to interact with GraphQL endpoint
 git clone https://github.com/m00nisSmiling/ginja.git
 cd ginja
 ```
+2. **Install dependencies:**
+```
+pip install -r requirements.txt
+```
+3. **Run script using python**
+```
+python ginja.py
+```
