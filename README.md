@@ -17,3 +17,19 @@ pip install -r requirements.txt
 ```
 python ginja.py
 ```
+3. **Direct Arguments**
+You can skip the initial prompts by passing the domain and route as arguments:
+```
+python ginja.py example.com /v1/graphql
+```
+<br>
+## Commands inside the tool
+
+### Once the tool is running, use the following queries:
+
+- rdb: Extract and list the table schema.  
+- rcol: Extract columns from a specific table and dump data.  
+- all: Automatically dump the entire database schema.  
+- csv: Toggle CSV export mode ON/OFF.  
+- clear: Remove local caches/folders for the current session.  
+- exit: Close the tool.
