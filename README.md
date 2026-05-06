@@ -25,7 +25,7 @@ python ginja.py example.com /v1/graphql
 <br>
 ## Commands inside the tool
 
-### Once the tool is running, use the following queries:
+**Once the tool is running, use the following queries:**
 
 - rdb: Extract and list the table schema.  
 - rcol: Extract columns from a specific table and dump data.  
